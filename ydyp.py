@@ -15,9 +15,9 @@ GLOBAL_DEBUG = False
 
 class YP:
     def __init__(self, cookie):
-        self.notebook_id = None
-        self.note_token = None
-        self.note_auth = None
+        self.notebook_id = 13627123562
+        self.note_token = 00
+        self.note_auth = Basic cGM6MTM2MjcxMjM1NjI6c200Nlg3SUV8MXxSQ1N8MTc0MzA4NjA5NTYzMnxXZ0prQTdFdEZlWkZYVXZmQ0NFY3JLeFNKOE95UHVObVpjenU4dkdOQlZHcHlSeHVfUE9WVmNpZjU3VlkxWjJlQVB0dzVpX2czbV9HSDY2UWZSM2lFYkh3UHhGR28xQTRpd1pCUTRnc09iQ0Y2dUh3OXJxaE9peXhqazdYUnFnVTVJUXh3QWhhMWM4NFl3TEVMVmYwZDhERy5TeF8uMkhzQXkxalY0N3pRZ3ct
         self.click_num = 15  # 定义抽奖次数和摇一摇戳一戳次数
         self.draw = 1  # 抽奖次数，首次免费
         self.session = requests.Session()
